@@ -51,10 +51,6 @@ li:hover
  cursor: pointer; 
 }
 
-ul li.active{
-    color:black; 
-    background-repeat: no-repeat;
-}
 
 .btn1,.btn2{
 
@@ -65,7 +61,7 @@ ul li.active{
     font-weight: 500;
     font-size: 22px;
     margin: 20px;
-    color: #383838;
+    color:black;
     background: transparent;
     outline: none;
     border: none;
@@ -79,3 +75,7 @@ ul li.active{
     background-color: red;
     cursor: pointer;
 }
+
+
+
+
