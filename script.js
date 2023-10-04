@@ -1,9 +1,14 @@
-const DivElement=document.querySelector(".container")
-const pagination=document.querySelector("#Pagination")
+const pagination=document.querySelector(".Pagination")
 
 
 
-pagination.innerHTML+=`<button class="btn1">Previous<button>
+pagination.innerHTML+=`
+
+
+<div id="buttons" class="d-flex justify-content-center">
+<button class="btn1">Previous<button> 
+</div>
+
 <nav aria-label="Page navigation example">
 <ul>
 <li class="page-item"><a class="page-link"href=https://www.guvi.in/courses/?current_tab=myCours" target="_blank">1</a></li>
@@ -18,6 +23,23 @@ pagination.innerHTML+=`<button class="btn1">Previous<button>
 <li class="page-item"><a class="page-link" href="https://www.guvi.in/courses/?current_tab=myCours" target="_blank">10</a></li>
 </ul>
 </nav>
-<button class="btn2">Next<button>`
+
+<div id="buttons" class="d-flex justify-content-center">
+        <button class="btn2">Next<button>
+        </div>
+
+     
+
+        ` 
+       
 
 
+
+
+
+
+
+
+
+
+  
