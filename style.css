@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 .container
 {
 width: 100%;
@@ -15,7 +14,7 @@ align-items: center;
 justify-content: center;
 
 }
-#Pagination
+.Pagination
 {
 display: flex;
 align-items: center;
@@ -75,7 +74,23 @@ li:hover
     background-color: red;
     cursor: pointer;
 }
+#title
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 600px;
+}
+#description
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 400px;
+    font-size: larger;
+    
 
+
+
+}
 
 
 
